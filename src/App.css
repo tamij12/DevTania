@@ -113,9 +113,20 @@ span.navbar-text {
     display: flex;
     align-items: center;
 }
+
+.github-icon{
+  margin-right: 9px;
+  margin-bottom: 9px;
+}
+
+.github-icon :hover{
+  cursor: pointer;
+}
+
 .social-icon {
     display: inline-block;
     margin-left: 14px;
+    margin-top: 30px;
 }
 .social-icon a {
     width: 42px;
@@ -150,6 +161,7 @@ span.navbar-text {
 .social-icon a:hover img {
 	filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
 }
+
 .navbar-text button {
   font-weight: 700;
   color: #fff;
@@ -232,6 +244,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Banner Css ************/
 .banner {
+  margin-bottom: 150px;
   margin-top: 0;
   padding: 260px 0 100px 0;
   background-image: url('./assets/img/banner-bg.png');
@@ -311,6 +324,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   padding: 60px 50px;
   margin-top: -60px;
+  margin-bottom: 150px;
 }
 .skill h2 {
 	font-size: 45px;
@@ -347,6 +361,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-color: black;
 }
 .project h2 {
+  margin-top: 100px;
 	font-size: 45px;
 	font-weight: 700;
   text-align: center;
