@@ -75,12 +75,13 @@ export const Banner = () => {
                     </span>
                   </h1>
                   <p>
-                    Fullstack developer with experience in modern frontend and
-                    backend technologies. With a solid foundation and hands-on
-                    projects, I have developed key skills to create efficient,
-                    high-quality technological solutions. Passionate about
-                    challenges, continuous learning, and delivering results that
-                    provide real value.
+                    Fullstack Web Developer con experiencia en el desarrollo de
+                    aplicaciones modernas y funcionales. Apasionada por el
+                    aprendizaje continuo, los retos tecnológicos y la creación
+                    de soluciones eficientes tanto en frontend como en backend.
+                    Mi enfoque está en entregar productos de calidad, con
+                    atención al detalle y orientados a brindar la mejor
+                    experiencia al usuario.
                   </p>
                   <button onClick={() => console.log("connect")}>
                     Let’s Connect <ArrowRightCircle size={25} />

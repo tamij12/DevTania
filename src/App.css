@@ -28,6 +28,7 @@ html {
 }
 
 body {
+  min-width: 320px;
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
@@ -354,6 +355,46 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
+.skill-card{
+  display: flex;
+  justify-content: center;
+  /* padding-left: 200px;
+  padding-right: 200px; */
+}
+
+.skill-cardbg{
+  background-color: #fff;
+  border-radius: 150px;
+  border: none;
+}
+
+.skill-cardbgback{
+  background-color: #fff;
+}
+
+.skill-cardimgnpm{
+  margin-top: 20px;
+  margin-right: 15px;
+  width: 80px;
+  height: 70px;
+}
+.skill-cardimgjwt{
+  margin-right: 15px;
+  width: 100px;
+  height: 70px;
+}
+.skill-cardimg{
+  margin-right: 15px;
+  width: 70px;
+  height: 70px;
+}
+
+.softskills{
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+
 /************ Projects Css ************/
 .project {
   padding: 80px 0;
@@ -429,8 +470,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 0 55px 55px 0;
 }
 .proj-imgbx {
+  width: 600px;
   position: relative;
-  border-radius: 30px;
+  border-radius: 2px;
   overflow: hidden;
   margin-bottom: 24px;
 }
@@ -439,7 +481,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
   opacity: 0.85;
   position: absolute;
-  width: 100%;
+  width: 50%;
   height: 0;
   transition: 0.4s ease-in-out;
 }
@@ -461,8 +503,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   opacity: 1;
 }
 .proj-txtx h4 {
-  font-size: 30px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: 500;
   letter-spacing: 0.8px;
   line-height: 1.1em;
 }
