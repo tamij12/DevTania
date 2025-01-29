@@ -356,6 +356,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .skill-card{
+  padding-top: 20px;
   display: flex;
   justify-content: center;
   /* padding-left: 200px;
@@ -393,14 +394,44 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: 60px;
   margin-bottom: 60px;
 }
+.skill-title {
+	font-size: 45px;
+	font-weight: 700;
+  text-align: center;
+}
+
+@keyframes floating {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.logo {
+  animation: floating 2s ease-in-out infinite; /* Aplica la animación */
+}
 
 
 /************ Projects Css ************/
 .project {
-  padding: 80px 0;
   position: relative;
   background-color: black;
 }
+
+
+
+.project-title{
+  padding-top: 170px;
+}
+
+.projects-cards{
+ padding-top: 90px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .project h2 {
   margin-top: 100px;
 	font-size: 45px;
