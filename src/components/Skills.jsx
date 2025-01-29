@@ -42,7 +42,7 @@ export const Skills = () => {
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }
                 >
-                  <h2>Skills</h2>
+                  <h2 className="skill-title">Skills</h2>
                   <div className="softskills">
                     <p>
                       He adquirido habilidades para desarrollar aplicaciones
@@ -77,53 +77,53 @@ export const Skills = () => {
                     >
                       <Tab.Pane eventKey="first">
                         <div className="skill-card">
-                          <img className="skill-cardimg" src={html} />
-                          <img className="skill-cardimg" src={css} />
-                          <img className="skill-cardimg" src={js} />
-                          <img className="skill-cardimg" src={sass} />
-                          <img className="skill-cardimg" src={materialui} />
-                          <img className="skill-cardimg" src={btrap} />
-                          <img className="skill-cardimg" src={tail} />
-                          <img className="skill-cardimg" src={react} />
+                          <img className="skill-cardimg logo" src={html} />
+                          <img className="skill-cardimg logo" src={css} />
+                          <img className="skill-cardimg logo" src={js} />
+                          <img className="skill-cardimg logo" src={sass} />
+                          <img className="skill-cardimg logo" src={materialui} />
+                          <img className="skill-cardimg logo" src={btrap} />
+                          <img className="skill-cardimg logo" src={tail} />
+                          <img className="skill-cardimg logo" src={react} />
                           <img
-                            className="skill-cardimg skill-cardbg"
+                            className="skill-cardimg skill-cardbg logo"
                             src={next}
                           />
-                          <img className="skill-cardimg" src={vite} />
+                          <img className="skill-cardimg logo" src={vite} />
                         </div>
                       </Tab.Pane>
                       <Tab.Pane eventKey="second">
                         <div className="skill-card">
                           <img
-                            className="skill-cardimg skill-cardbgback"
+                            className="skill-cardimg skill-cardbgback logo"
                             src={nodejs}
                           />
                           <img
-                            className="skill-cardimg skill-cardbgback"
+                            className="skill-cardimg skill-cardbgback logo"
                             src={express}
                           />
-                          <img className="skill-cardimg" src={mongo} />
-                          <img className="skill-cardimg" src={mongoose} />
-                          <img className="skill-cardimgjwt" src={jwt} />
-                          <img className="skill-cardimgnpm" src={npm} />
+                          <img className="skill-cardimg logo" src={mongo} />
+                          <img className="skill-cardimg logo" src={mongoose} />
+                          <img className="skill-cardimgjwt logo" src={jwt} />
+                          <img className="skill-cardimgnpm logo" src={npm} />
                         </div>
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
-                        <div className="skill-card">
-                          <img className="skill-cardimg" src={vs} />
-                          <img className="skill-cardimg" src={git} />
+                        <div className="skill-card logo">
+                          <img className="skill-cardimg logo" src={vs} />
+                          <img className="skill-cardimg logo" src={git} />
                           <img
-                            className="skill-cardimg skill-cardbg"
+                            className="skill-cardimg skill-cardbg logo"
                             src={github}
                           />
-                          <img className="skill-cardimg" src={postman} />
-                          <img className="skill-cardimg" src={gcp} />
+                          <img className="skill-cardimg logo" src={postman} />
+                          <img className="skill-cardimg logo" src={gcp} />
                           <img
-                            className="skill-cardimg skill-cardbgback"
+                            className="skill-cardimg skill-cardbgback logo"
                             src={aws}
                           />
                           <img
-                            className="skill-cardimg skill-cardbgback"
+                            className="skill-cardimg skill-cardbgback logo"
                             src={scrum}
                           />
                         </div>
