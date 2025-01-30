@@ -753,6 +753,64 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 100%;
 }
 
+
+/*********** Certifications **********/
+.certifications {
+  background: #000;
+  text-align: center;
+  padding: 40px;
+  padding-bottom: 150px;
+}
+
+.certifications h2 {
+  margin-bottom: 70px;
+}
+
+.certification-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.cert-card {
+  background: white;
+  padding: 20px;
+  width: 280px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cert-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 25px 8px rgba(138, 43, 226, 0.7); /* Color más brillante */
+}
+
+.cert-img{
+  margin-top: 7px;
+}
+
+.cert-card h3 {
+  margin-top: 7px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.cert-card p {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.cert-card span {
+  display: block;
+  margin-top: 10px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #6b46c1;
+}
+
+
 /************ Footer Css ************/
 .footer {
   padding: 0 0 50px 0;
