@@ -83,7 +83,9 @@ export const Banner = () => {
                     atención al detalle y orientados a brindar la mejor
                     experiencia al usuario.
                   </p>
-                  <button onClick={() => console.log("connect")}>
+                  <button onClick={() =>
+                  (window.location = "mailto:tamijangosrz@gmail.com")
+                }>
                     Let’s Connect <ArrowRightCircle size={25} />
                   </button>
                 </div>

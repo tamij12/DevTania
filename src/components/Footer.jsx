@@ -11,6 +11,7 @@ export const Footer = () => {
         <Row className="align-items-center mt-48">
           <Col size={12} sm={6}>
             <img
+              className="logo"
               src={logodev}
               alt="Logo"
               style={{ width: "70px", height: "60px" }}

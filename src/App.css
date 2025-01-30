@@ -319,6 +319,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 0 0 50px 0;
   position: relative;
 }
+
+.container-skills{
+  padding-bottom: 190px;
+}
 .skill-bx {
   background: #151515;
   border-radius: 64px;
@@ -405,13 +409,29 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-10px);
+    transform: translateY(-15px);
   }
 }
 
 .logo {
-  animation: floating 2s ease-in-out infinite; /* Aplica la animación */
+  object-fit: contain;
+  animation: floating 3s ease-in-out infinite; 
+  box-shadow: 0 0 20px 5px rgba(75, 0, 130, 0.7); 
+  /* filter: brightness(0.9);  */
 }
+.logo-diferent{
+  box-shadow: 0 0 20px 5px rgba(75, 0, 130, 0.7); 
+  animation: floating 4s ease-in-out infinite;
+  /* filter: brightness(0.9); */
+}
+
+.logo-dife{
+  box-shadow: 0 0 20px 5px rgba(75, 0, 130, 0.7); 
+  animation: floating 4.5s ease-in-out infinite;
+  /* filter: brightness(0.9); */
+}
+
+
 
 
 /************ Projects Css ************/
@@ -420,7 +440,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-color: black;
 }
 
+.project-cardstyle{
+  animation: floating 2s ease-in-out infinite;
+  transition: transform 0.3s ease-in-out;
+}
 
+.project-cardstyle:hover{
+  box-shadow: 0 0 20px 5px rgba(75, 0, 130, 0.7);
+  transform: scale(1.2); 
+}
 
 .project-title{
   padding-top: 170px;
@@ -428,6 +456,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .projects-cards{
  padding-top: 90px;
+ padding-bottom: 110px;
   display: flex;
   justify-content: space-evenly;
 }

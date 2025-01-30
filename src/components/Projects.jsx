@@ -17,14 +17,20 @@ export const Projects = () => {
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
               <h2>Projects</h2>
-              {/* <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.<br></br> Lorem Ipsum has been the industry standard
-                dummy text.
-              </p> */}
+              <p>
+                En cada uno de mis proyectos, aplico una combinación de
+                habilidades en front-end y back-end para crear aplicaciones web
+                completas y funcionales. Desde el diseño de interfaces
+                intuitivas y responsivas utilizando React y Tailwind CSS, hasta
+                la implementación de soluciones robustas en el back-end con
+                Node.js y MongoDB. Estos proyectos demuestran mi capacidad para
+                manejar tanto la parte visual como la lógica detrás de la
+                aplicación, asegurando una experiencia de usuario fluida y un
+                rendimiento eficiente.
+              </p>
 
               <div className="projects-cards">
-                <div>
+                <div className="project-cardstyle">
                   <Card style={{ width: "400px" }}>
                     <Card.Body>
                       <Card.Img variant="top" src={vitaliapp} />
@@ -32,11 +38,18 @@ export const Projects = () => {
                         App diseñada para mejorar la gestión de la salud
                         personal. Registrar, Administrar, Organizar.
                       </p> */}
+                      {/* <div>
+                      <span>
+                      App diseñada para mejorar la gestión de la salud
+                      personal.
+                      </span>
+                      </div> */}
                       <a
                         href="https://vitaliapp-front.vercel.app/"
                         target="_blank"
                         rel="noopener noreferrer"
                         style={{
+                          // marginBottom: "20px",
                           fontSize: "15px",
                           color: "#5a2d89",
                           textDecoration: "underline",
@@ -52,7 +65,7 @@ export const Projects = () => {
                   </Card>
                 </div>
 
-                <div>
+                <div className="project-cardstyle">
                   <Card style={{ width: "400px" }}>
                     <Card.Body>
                       {/* <Card.Title>Card Title</Card.Title>

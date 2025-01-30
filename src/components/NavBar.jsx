@@ -41,6 +41,7 @@ export const NavBar = () => {
         <Container>
           <Navbar.Brand href="/">
             <img
+            className="logo"
               src={logodev}
               alt="Logo"
               style={{ width: "70px", height: "60px" }}
@@ -99,7 +100,11 @@ export const NavBar = () => {
                 </a>
               </div>
               <HashLink to="#connect">
-                <button className="vvd">
+                <button className="vvd"
+                onClick={() =>
+                  (window.location = "mailto:tamijangosrz@gmail.com")
+                }
+                >
                   <span>Let’s Connect</span>
                 </button>
               </HashLink>
