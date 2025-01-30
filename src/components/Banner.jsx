@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import headerImg from "../assets/img/header-img.svg";
-import { ArrowRightCircle } from "react-bootstrap-icons";
+import { Download } from "react-bootstrap-icons";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
@@ -87,7 +87,7 @@ export const Banner = () => {
                   </p>
                   <a href={cvFile} download style={{ textDecoration: "none" }}>
                     <Button variant="outline-light">
-                      Download CV <ArrowRightCircle size={25} />
+                      Download CV <Download size={25} />
                     </Button>
                   </a>
                 </div>
