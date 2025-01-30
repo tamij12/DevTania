@@ -6,7 +6,7 @@ import navIcon3 from "../assets/img/nav-icon3.svg";
 import { Github } from "react-bootstrap-icons";
 import { HashLink } from "react-router-hash-link";
 import { BrowserRouter as Router } from "react-router-dom";
-import logodev from "../assets/img/logo-dev.png";
+import logodev from "../assets/img/codigo.png";
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
@@ -41,6 +41,7 @@ export const NavBar = () => {
         <Container>
           <Navbar.Brand href="/">
             <img
+              className="logo"
               src={logodev}
               alt="Logo"
               style={{ width: "70px", height: "60px" }}
@@ -99,7 +100,12 @@ export const NavBar = () => {
                 </a>
               </div>
               <HashLink to="#connect">
-                <button className="vvd">
+                <button
+                  className="vvd"
+                  onClick={() =>
+                    (window.location = "mailto:tamijangosrz@gmail.com")
+                  }
+                >
                   <span>Let’s Connect</span>
                 </button>
               </HashLink>

@@ -31,8 +31,8 @@ import "animate.css";
 
 export const Skills = () => {
   return (
-    <section className="project" id="skills">
-      <Container>
+    <section className="project container-skills" id="skills">
+      <Container className="">
         <Row>
           <Col size={12}>
             <TrackVisibility>
@@ -42,7 +42,9 @@ export const Skills = () => {
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }
                 >
-                  <h2 className="skill-title">Skills</h2>
+                  <div className="div-skills-title">
+                  <h2 className="title-aboutme">Skills</h2> 
+                  </div>
                   <div className="softskills">
                     <p>
                       He adquirido habilidades para desarrollar aplicaciones
@@ -78,15 +80,15 @@ export const Skills = () => {
                       <Tab.Pane eventKey="first">
                         <div className="skill-card">
                           <img className="skill-cardimg logo" src={html} />
-                          <img className="skill-cardimg logo" src={css} />
-                          <img className="skill-cardimg logo" src={js} />
+                          <img className="skill-cardimg logo-diferent" src={css} />
+                          <img className="skill-cardimg logo-dife" src={js} />
                           <img className="skill-cardimg logo" src={sass} />
-                          <img className="skill-cardimg logo" src={materialui} />
-                          <img className="skill-cardimg logo" src={btrap} />
+                          <img className="skill-cardimg logo-diferent" src={materialui} />
+                          <img className="skill-cardimg logo-dife" src={btrap} />
                           <img className="skill-cardimg logo" src={tail} />
-                          <img className="skill-cardimg logo" src={react} />
+                          <img className="skill-cardimg logo-diferent" src={react} />
                           <img
-                            className="skill-cardimg skill-cardbg logo"
+                            className="skill-cardimg skill-cardbg logo-dife"
                             src={next}
                           />
                           <img className="skill-cardimg logo" src={vite} />
@@ -99,27 +101,27 @@ export const Skills = () => {
                             src={nodejs}
                           />
                           <img
-                            className="skill-cardimg skill-cardbgback logo"
+                            className="skill-cardimg skill-cardbgback logo-diferent"
                             src={express}
                           />
-                          <img className="skill-cardimg logo" src={mongo} />
+                          <img className="skill-cardimg logo-dife" src={mongo} />
                           <img className="skill-cardimg logo" src={mongoose} />
-                          <img className="skill-cardimgjwt logo" src={jwt} />
+                          <img className="skill-cardimgjwt logo-diferent" src={jwt} />
                           <img className="skill-cardimgnpm logo" src={npm} />
                         </div>
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
-                        <div className="skill-card logo">
+                        <div className="skill-card">
                           <img className="skill-cardimg logo" src={vs} />
-                          <img className="skill-cardimg logo" src={git} />
+                          <img className="skill-cardimg logo-diferent" src={git} />
                           <img
-                            className="skill-cardimg skill-cardbg logo"
+                            className="skill-cardimg skill-cardbg logo-dife"
                             src={github}
                           />
-                          <img className="skill-cardimg logo" src={postman} />
+                          <img className="skill-cardimg logo-diferent" src={postman} />
                           <img className="skill-cardimg logo" src={gcp} />
                           <img
-                            className="skill-cardimg skill-cardbgback logo"
+                            className="skill-cardimg skill-cardbgback logo-dife"
                             src={aws}
                           />
                           <img
