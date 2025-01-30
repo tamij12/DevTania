@@ -95,7 +95,7 @@ export const Projects = () => {
                 href="https://github.com/tamij12?tab=repositories"
                 style={{ textDecoration: "none" }}
               >
-                <Button variant="outline-light">GitHub Projects <Github/> </Button>
+                <Button variant="outline-light">GitHub Projects <Github size={25}/> </Button>
               </a>
             </div>
           </div>
