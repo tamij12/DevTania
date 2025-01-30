@@ -1,13 +1,13 @@
 import myprofile from "../assets/img/photo-profile.jpg";
 const AboutMe = () => {
   return (
-    <section className="about-me">
+    <section id="aboutme" className="about-me">
       <div className="about-content">
         <div className="image-container">
           <img src={myprofile} alt="profile-photo" className="profile-image" />
         </div>
         <div className="text-container">
-          <h2 className="title-aboutme">Sobre Mí</h2>
+          <h2 className="title-aboutme">About me</h2>
           <p className="p-aboutme">
             Mi nombre es Tania Mijangos Ramírez, soy de México y tengo 19 años.
             Mi pasión por la programación comenzó a los 16 años, cuando mi
