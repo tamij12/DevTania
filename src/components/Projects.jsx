@@ -1,13 +1,9 @@
-// import meter1 from "../assets/img/meter1.svg";
-// import meter2 from "../assets/img/meter2.svg";
-// import meter3 from "../assets/img/meter3.svg";
-import colorSharp from "../assets/img/color-sharp.png";
-// import projImg1 from "../assets/img/project-img1.png";
-
 import Card from "react-bootstrap/Card";
 
 import vitaliapp from "../assets/img/vapp.png";
 import spanglish from "../assets/img/spanglish.png";
+import { Button } from "react-bootstrap";
+import { Github } from "react-bootstrap-icons";
 
 export const Projects = () => {
   return (
@@ -94,11 +90,17 @@ export const Projects = () => {
                   </Card>
                 </div>
               </div>
+
+              <a
+                href="https://github.com/tamij12?tab=repositories"
+                style={{ textDecoration: "none" }}
+              >
+                <Button variant="outline-light">GitHub Projects <Github/> </Button>
+              </a>
             </div>
           </div>
         </div>
       </div>
-      <img className="background-image-left" src={colorSharp} alt="Image" />
     </section>
   );
 };
