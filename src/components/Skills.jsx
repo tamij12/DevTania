@@ -42,7 +42,9 @@ export const Skills = () => {
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }
                 >
-                  <h2 className="skill-title">Skills</h2>
+                  <div className="div-skills-title">
+                  <h2 className="title-aboutme">Skills</h2> 
+                  </div>
                   <div className="softskills">
                     <p>
                       He adquirido habilidades para desarrollar aplicaciones

@@ -16,7 +16,7 @@ export const Projects = () => {
         <div className="row">
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
-              <h2>Projects</h2>
+              <h2 className="title-aboutme">Projects</h2>
               <p>
                 En cada uno de mis proyectos, aplico una combinación de
                 habilidades en front-end y back-end para crear aplicaciones web

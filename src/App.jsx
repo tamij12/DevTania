@@ -5,12 +5,14 @@ import { Banner } from "./components/Banner";
 import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
 import { Footer } from "./components/Footer";
+import AboutMe from './components/AboutMe';
 
 function App() {
   return (
     <div className="App">
       <NavBar />
       <Banner />
+      <AboutMe/>
       <Projects />
       <Skills />
       {/* <Contact /> */}

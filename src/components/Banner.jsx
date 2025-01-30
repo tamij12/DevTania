@@ -1,11 +1,13 @@
 import { useState, useEffect } from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import headerImg from "../assets/img/header-img.svg";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
 export const Banner = () => {
+  const cvFile = "/public/FullStackDev_CVTania.pdf";
+
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState("");
@@ -83,11 +85,11 @@ export const Banner = () => {
                     atención al detalle y orientados a brindar la mejor
                     experiencia al usuario.
                   </p>
-                  <button onClick={() =>
-                  (window.location = "mailto:tamijangosrz@gmail.com")
-                }>
-                    Let’s Connect <ArrowRightCircle size={25} />
-                  </button>
+                  <a href={cvFile} download style={{ textDecoration: "none" }}>
+                    <Button variant="outline-light">
+                      Download CV <ArrowRightCircle size={25} />
+                    </Button>
+                  </a>
                 </div>
               )}
             </TrackVisibility>

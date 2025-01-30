@@ -2,7 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
-import logodev from "../assets/img/logo-dev.png";
+import logodev from "../assets/img/codigo.png";
 
 export const Footer = () => {
   return (
@@ -29,6 +29,8 @@ export const Footer = () => {
                 <img src={navIcon3} alt="Icon" />
               </a>
             </div>
+            <p>Cell. (+52)951 462 1336 </p>
+            <p>tamijangosrz@gmail.com</p>
             <p>Copyright 2025. All Rights Reserved</p>
           </Col>
         </Row>
