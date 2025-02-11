@@ -2,6 +2,7 @@ import Card from "react-bootstrap/Card";
 
 import vitaliapp from "../assets/img/vapp.png";
 import spanglish from "../assets/img/spanglish.png";
+import weatherapp from "../assets/img/weather.png";
 import { Button } from "react-bootstrap";
 import { Github } from "react-bootstrap-icons";
 
@@ -27,7 +28,7 @@ export const Projects = () => {
 
               <div className="projects-cards">
                 <div className="project-cardstyle">
-                  <Card style={{ width: "400px" }}>
+                  <Card style={{ width: "350px" }}>
                     <Card.Body>
                       <Card.Img variant="top" src={vitaliapp} />
                       {/* <p className="">
@@ -62,7 +63,7 @@ export const Projects = () => {
                 </div>
 
                 <div className="project-cardstyle">
-                  <Card style={{ width: "400px" }}>
+                  <Card style={{ width: "350px" }}>
                     <Card.Body>
                       {/* <Card.Title>Card Title</Card.Title>
                       <Card.Text>
@@ -89,7 +90,41 @@ export const Projects = () => {
                     </Card.Body>
                   </Card>
                 </div>
+                <div className="project-cardstyle">
+                  <Card style={{ width: "350px" }}>
+                    <Card.Body>
+                      {/* <Card.Title>Card Title</Card.Title>
+                      <Card.Text>
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card content.
+                      </Card.Text> */}
+                      <Card.Img variant="top" src={weatherapp} />
+                      <a
+                        href="https://fluentispanglish.vercel.app/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{
+                          fontSize: "15px",
+                          color: "#FF6F61",
+                          textDecoration: "underline",
+                          marginTop: "10px",
+                          display: "inline-block",
+                          transition:
+                            "color 0.3s ease, text-decoration 0.3s ease",
+                        }}
+                      >
+                        Ver proyecto
+                      </a>
+                    </Card.Body>
+                  </Card>
+                </div>
+
               </div>
+
+              
+              
+
+              
 
               <a
                 href="https://github.com/tamij12?tab=repositories"
