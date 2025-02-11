@@ -552,6 +552,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .projects-cards {
   padding-top: 90px;
+  margin-right: 2px;
   padding-bottom: 110px;
   display: flex;
   justify-content: space-evenly;
