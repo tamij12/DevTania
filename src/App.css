@@ -549,6 +549,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project-title {
   padding-top: 170px;
 }
+.project-textcard{
+  text-align: justify;
+  padding: 5px;
+}
+
 
 .projects-cards {
   padding-top: 90px;
@@ -557,10 +562,23 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: flex;
   justify-content: space-evenly;
 }
-
-.project h2 {
+.project-titlefirts{
   margin-top: 80px;
   text-align: center;
+}
+.project h2 {
+  margin-top: 200px;
+  text-align: center;
+}
+
+.project-style{
+  color: #b8b8b8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px auto 70px auto;
+  text-align: justify;
+  width: 56%;
 }
 .project p {
   color: #b8b8b8;
