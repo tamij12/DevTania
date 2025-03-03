@@ -1,0 +1,102 @@
+body {
+  background: #f4f4f4;
+  padding: 40px 0;
+}
+.projects-list {
+  justify-items: center;
+}
+.project-card {
+  width: 90%;
+  max-width: 800px;
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 25px 8px rgba(137, 43, 226, 0.515);
+}
+
+.project-image {
+  width: 50%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.project-info {
+  width: 50%;
+  text-align: left;
+}
+
+.pro-title {
+  font-size: 1.5rem;
+  color: #222;
+  margin-bottom: 5px;
+}
+
+.project-description {
+  padding-right: 10px;
+  text-align: justify;
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.tech-icons {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.tech-icons img {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.2s ease;
+}
+
+.tech-icons img:hover {
+  transform: scale(1.2);
+}
+
+.buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.btn {
+  flex: 1;
+  text-align: center;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: 2px solid #000;
+}
+
+.preview-btn {
+  background: white;
+  color: black;
+}
+
+.preview-btn:hover {
+  background: #ddd;
+}
+
+.code-btn {
+  background: black;
+  color: white;
+}
+
+.code-btn:hover {
+  background: #333;
+}
